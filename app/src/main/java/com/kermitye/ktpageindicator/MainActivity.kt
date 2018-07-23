@@ -10,11 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var listData = ArrayList<HomeFragment>()
-        for (i in 1..3) {
-            var fragment = HomeFragment()
-            listData.add(fragment)
-        }
+        var listData = listOf(HomeFragment(), HomeFragment(), HomeFragment())
 
         mViewPager.adapter = HomePageAdapter(supportFragmentManager, listData)
         mViewPager.setIndicator(mIndicator)
