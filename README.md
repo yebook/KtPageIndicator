@@ -4,7 +4,7 @@
 
 
 
-![1](.\1.png)
+![1](https://github.com/yebook/KtPageIndicator/blob/master/1.png)
 
 
 
